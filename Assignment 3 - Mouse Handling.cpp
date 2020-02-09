@@ -74,13 +74,13 @@ void display()
 
 int main(int argc,char **argv)
 {
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
-    glutInitWindowSize(640, 480);
-    glutCreateWindow("Color Polygon with Fill");
-    createMenu(); 
-    glutMouseFunc(mouse);
-    glutDisplayFunc(display);
-    glutMainLoop();
-    return 0;
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
+	glutInitWindowSize(640, 480);
+	glutCreateWindow("Color Polygon with Fill");
+	createMenu(); 
+	glutMouseFunc(mouse);
+	glutDisplayFunc(display);
+	glutMainLoop();
+	return 0;
 }
