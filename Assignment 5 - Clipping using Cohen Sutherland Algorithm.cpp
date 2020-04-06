@@ -1,10 +1,3 @@
-/*
-Name: Saarth Deshpande
-Roll number: 23150
-Batch: G9
-Assignment No.: 5
-*/
-
 #include<iostream>
 #include<cmath>
 #include<GL/glut.h>
