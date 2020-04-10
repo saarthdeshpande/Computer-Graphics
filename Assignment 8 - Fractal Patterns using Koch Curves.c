@@ -20,6 +20,7 @@ void kochCurve(GLfloat dir,GLfloat len,GLint iter)
 	else
 	{
 		iter -= 1;	
+		len = len / 3;			//Keeps the shape size same so that it doesn't scale up for larger iterations
 		kochCurve(dir, len, iter);	//draw the four parts of the side _/\_
 		dir += 60.0;
 		kochCurve(dir, len, iter);
