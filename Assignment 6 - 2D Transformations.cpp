@@ -1,11 +1,3 @@
-/*
-
-Roll Number: 23150
-Batch: G9
-Problem Statement: Implement translation, shearing, rotation and scaling transformations on equilateral triangle and rhombus.
-
-*/
-
 #include <GL/glut.h>
 #include <stdio.h>
 #include <stdlib.h>
